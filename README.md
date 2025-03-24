@@ -10,8 +10,8 @@ The aim was to create a survey form fully responsive with clean design, but i tu
 
 ## 🛠️ Project Context
 
-This form was created as part of the **Responsive Web Design Certification** from [freeCodeCamp.org](https://www.freecodecamp.org/). The original project was to make a survey form.
+This form was created as part of the **Responsive Web Design Certification** from [freeCodeCamp.org](https://www.freecodecamp.org/){:target="_blank"}. The original project was to make a survey form.
 
 ### Live demo
 
-👉 [https://nicolas-drew.github.io/fcc-surveyform/](https://nicolas-drew.github.io/fcc-surveyform/) 👈
+👉 [https://nicolas-drew.github.io/fcc-surveyform/](https://nicolas-drew.github.io/fcc-surveyform/){:target="_blank"} 👈
