@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #2e2d4d;
+  color: #ecece4;
+  font-family: "Macondo Swash Caps", Tahoma;
+  font-size: 24px;
+}
+h1,
+#description {
+  text-align: center;
+}
+#description,
+#each {
+  font-size: 20px;
+  font-style: italic;
+}
+form {
+  margin: 2em auto;
+  width: 50%;
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px 0px #1f1e33;
+}
+fieldset {
+  border: none;
+  padding: 1em;
+}
+label {
+  display: block;
+  margin: 1em auto;
+}
+legend,
+#background {
+  font-weight: bolder;
+  font-size: 26px;
+  margin-top: -10px;
+}
+#alignment,
+#class,
+#weapon,
+#race,
+#name-label,
+#number-label,
+#email-label {
+  font-size: 26px;
+  font-weight: bolder;
+}
+hr {
+  color: #ecece4;
+  border: 2px solid #ecece4;
+  border-radius: 1em;
+  margin: 1em auto;
+}
+#textarea {
+  width: 100%;
+  max-width: auto;
+}
+input,
+#textarea {
+  background-color: #24233a;
+  border: #24233a;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px auto;
+  min-height: 2rem;
+}
+#submit {
+  display: block;
+  width: 40%;
+  font-weight: bolder;
+  padding: 0.5em;
+  font-family: "Macondo Swash Caps";
+  font-size: 22px;
+  border-radius: 10px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 17px;
+}
+#dropdown {
+  width: 15%;
+}
+input[placeholder] {
+  font-size: 20px;
+  font-family: "Macondo Swash Caps";
+}
+#class,
+#weapon {
+  display: inline-block;
+  color: #25fbb4;
+}
+.tableau {
+  text-align: center;
+}
+.colomn {
+  display: inline-block;
+  width: 30%;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Character creation form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+    <body>
+        <div class="background"></div>
+      <h1 id="title">Character creation form</h1>
+      <p id="description">Your name will go down in history. Who are you, traveler ?</p>
+      <form method="post" id ="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Hero's name :  <input id="name" type ="text" placeholder="ex:Stefanus, Rosalinda" required></label>
+        <label for="dropdown"><span id="race">Race : </span>
+            <select  required   id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Human</option>
+              <option value="2">Elf</option>
+              <option value="3">Dwarf</option>
+              <option value="4">Vampire</option>
+              <option value="5">Undead</option>
+            </select>
+        </label>
+        <label for="number" id="number-label">Character's age :  <input id="number" type ="number" min="18" max="999" placeholder="187" required></label>
+        <hr>
+        </fieldset>
+        <fieldset>
+          </label>
+          <legend>Choose your Class and Weapon <span id="each">(one of each)</span></legend>
+          <div class="tableau">
+            <div class="colomn">
+              <p id="class">Class : </p>
+              <label>Warrior <input type="checkbox" name="class" value="warrior"></label>
+              <label>Mage <input type="checkbox" name="class" value="mage"></label>
+              <label>Thief <input type="checkbox" name="class" value="thief"></label>
+              <label>Ranger <input type="checkbox" name="class" value="ranger"></label>
+              <label>Priest <input type="checkbox" name="class" value="priest"></label>
+            </div>
+            <div class="colomn">
+              <p id="weapon">Weapon : </p>
+              <label>Sword <input type="checkbox" name="weapon" value="sword"></label>
+              <label>Mace <input type="checkbox" name="weapon" value="mace"></label>
+              <label>Dagger <input type="checkbox" name="weapon" value="dagger"></label>
+              <label>Bow <input type="checkbox" name="weapon" value="bow"></label>
+              <label>Wand <input type="checkbox" name="weapon" value="wand"></label>
+          </div>
+          </div>
+        </fieldset>
+        <fieldset>
+        <legend id="alignment">Alignment</legend>
+          <label for="alignment">Good 
+            <input type="radio" name="alignment" id="good" value="good">
+          </label>
+          <label for="neutral">Neutral 
+            <input checked type="radio" name="alignment" id="neutral" value="neutral">
+          </label>
+          <label for="evil">Evil 
+            <input type="radio" name="alignment" id="evil" value="evil">
+          </label>
+          <label id="background">Describe your character's background: <textarea id="textarea" cols="50" rows="10" ></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+        <hr>
+        <label for="email" id="email-label">Enter your magic address <input id="email" type="email" placeholder="scroll@raven.com" required></label>
+        <input id="submit" type="submit" value="Start your journey">
+        </fieldset>
+      </form>
+    </body>
+  </head>
+</html>
